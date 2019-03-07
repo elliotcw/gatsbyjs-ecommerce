@@ -8,12 +8,12 @@ dotenv.config();
 const conf = convict({
   siteName: {
     doc: 'Site name.',
-    default: 'Sejal Suits',
+    default: 'Organic 365',
     env: 'SITE_NAME',
   },
   adminEmail: {
     doc: 'Default admin email address.',
-    default: 'perminder.klair@gmail.com',
+    default: 'williams.elliot@gmail.com',
     env: 'ADMIN_EMAIL',
   },
   env: {
