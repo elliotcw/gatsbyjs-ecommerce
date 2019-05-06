@@ -3,7 +3,7 @@ module.exports = {
 
   siteName: 'Every Day Organic',
   author: 'Elliot Williams',
-  description: 'Owner sources organic foods',
+  description: 'Expertly sourced organic foods at great prices',
   twitter: '@everydayorganic',
   fbUserId: '@everydayorganic',
   fbAppID: '@everydayorganic',

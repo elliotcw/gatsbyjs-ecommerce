@@ -26,7 +26,7 @@ export default class IndexPage extends React.Component {
       <React.Fragment>
         <Seo
           title="Every Day Organic"
-          description="Owner sourced organic food at great prices"
+          description="Expertly sourced organic foods at great prices"
           url={config.siteUrl}
         />
         <HomeBanner data={home} />
