@@ -62,8 +62,8 @@ const parseFields = fields => {
   return data;
 };
 
-const parseResponse = (data, parseFieldsFunc = true) =>
-  // console.log(JSON.stringify(data));
+const parseResponse = (data, parseFieldsFunc = true) => {
+  console.log(JSON.stringify(data));
   data.map(item => {
     const fields = parseFieldsFunc ? parseFields(item.fields) : item.fields;
     return {
@@ -75,6 +75,7 @@ const parseResponse = (data, parseFieldsFunc = true) =>
       ...fields,
     };
   });
+}
 
 const parseNewEntry = input => {
   const data = {};
@@ -97,7 +98,7 @@ export const getEntries = async (contentType, other) => {
     content_type: contentType,
     ...other,
   });
-  // console.log('entries', entries);
+  console.log('entries', entries);
   return parseResponse(entries.items);
 };
 
