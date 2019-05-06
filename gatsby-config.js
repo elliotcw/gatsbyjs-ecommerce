@@ -63,7 +63,7 @@ module.exports = {
     {
       resolve: `gatsby-source-medium`,
       options: {
-        username: `sejal-suits`,
+        username: `every-day-organic`,
       },
     },
     `gatsby-plugin-sitemap`,
