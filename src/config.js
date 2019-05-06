@@ -8,7 +8,7 @@ dotenv.config();
 const conf = convict({
   siteName: {
     doc: 'Site name.',
-    default: 'Organic 365',
+    default: 'Every Day Organic',
     env: 'SITE_NAME',
   },
   adminEmail: {
