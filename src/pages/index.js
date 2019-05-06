@@ -10,22 +10,23 @@ import HomeAbout from '../components/HomeAbout';
 import ScrollButton from '../components/ScrollButton';
 
 export default class IndexPage extends React.Component {
-  componentDidMount () {
-    ReactGA.pageview ('/');
+  componentDidMount() {
+    ReactGA.pageview('/');
   }
 
-  render () {
+  render() {
     const {
-      data: {allContentfulProduct: products, contentfulHome: home},
+      data: { allContentfulProduct: products, contentfulHome: home },
     } = this.props;
-    const currencies = first(currency.edges).node;
-    console.log('currencies', currencies);
+    // TODO: put currencies back in
+    // const currencies = first(currency.edges).node;
+    // console.log('currencies', currencies);
 
     return (
       <React.Fragment>
         <Seo
-          title="Latest punjabi suits collection"
-          description="Latest Punjabi Traditional Suits"
+          title="Every Day Organic"
+          description="Owner sourced organic food at great prices"
           url={config.siteUrl}
         />
         <HomeBanner data={home} />

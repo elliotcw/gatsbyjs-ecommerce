@@ -3,14 +3,15 @@ const path = require('path');
 const fetch = require('isomorphic-unfetch');
 
 exports.onPreBootstrap = () => {
+  // TODO: put currency conversion back in
   // fetch currency rates
-  fetch(
-    'http://free.currencyconverterapi.com/api/v5/convert?q=GBP_CAD,GBP_INR&compact=y',
-  )
-    .then(r => r.json())
-    .then(data => {
-      fs.writeFileSync(`./data/currency.json`, JSON.stringify(data, ``, 2));
-    });
+  // fetch(
+  //   'http://free.currencyconverterapi.com/api/v5/convert?q=GBP_CAD,GBP_INR&compact=y',
+  // )
+  //   .then(r => r.json())
+  //   .then(data => {
+  //     fs.writeFileSync(`./data/currency.json`, JSON.stringify(data, ``, 2));
+  //   });
 };
 
 exports.createPages = ({ boundActionCreators, graphql }) => {

@@ -20,7 +20,7 @@ export default class Coupons extends React.Component {
       <div className="section">
         <Seo
           title="Coupons"
-          description="Get a best detals"
+          description="Get the best deals"
           url={`${config.siteUrl}/coupons`}
         />
         <Heading>Coupons</Heading>

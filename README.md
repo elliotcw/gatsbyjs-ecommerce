@@ -1,10 +1,4 @@
-# GatsbyJs Ecommerce
-
-A minimalist static E-commerce site built using GatsbyJs.
-
-- Site is still in progress, happy for pull requests and issues if you find any.
-
-[Live Demo](https://www.sejalsuits.co.uk)
+# Every Day Organic
 
 Required API for mutations can be found in [API branch](https://github.com/perminder-klair/gatsbyjs-ecommerce/tree/api)
 
@@ -36,7 +30,7 @@ STRIPE_PUBLISHABLE_KEY=YOUR_KEY_HERE
 Run:
 
 ```
-yarn install
+npm install
 ```
 
 ## Development
@@ -44,12 +38,12 @@ yarn install
 To start development server
 
 ```
-yarn start
+npm start
 ```
 
 ## Deployment
 
 ```
-yarn run build
-yarn serve
+npm run build
+npm serve
 ```

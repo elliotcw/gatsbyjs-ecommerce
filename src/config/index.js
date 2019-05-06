@@ -1,23 +1,23 @@
 module.exports = {
   DEBUG: process.env.NODE_ENV === 'development',
 
-  siteName: 'Sejal Suits',
-  author: 'Parminder Klair',
-  description: 'Latest Punjabi Traditional Suits',
-  twitter: '@sejalsuits',
-  fbUserId: '@sejalsuits',
-  fbAppID: '@sejalsuits',
+  siteName: 'Every Day Organic',
+  author: 'Elliot Williams',
+  description: 'Owner sources organic foods',
+  twitter: '@everydayorganic',
+  fbUserId: '@everydayorganic',
+  fbAppID: '@everydayorganic',
   type: 'website',
 
-  GRAPHQL_ENDPOINT: 'https://api.sejalsuits.co.uk',
+  GRAPHQL_ENDPOINT: 'https://api.everydayorganic.co.uk',
   GRAPHQL_ENDPOINT_DEV: 'http://localhost:4000',
-  siteUrl: 'https://www.sejalsuits.co.uk',
-  mediumPublicationUrl: 'https://medium.com/sejal-suits',
-  googleAnalytics: 'UA-1390187-40',
+  siteUrl: 'https://www.everydayorganic.co.uk',
+  mediumPublicationUrl: '',
+  googleAnalytics: '',
   stripePublishableKey:
     process.env.NODE_ENV === 'development'
-      ? 'pk_test_P0DEB2otulfya51U9lIkLXAn'
-      : 'pk_live_eMN5tHGymDNn3DOZH8MX5ziD',
+      ? 'pk_test_um1M4UvSEWpDYqRL4bsIVQ5S'
+      : '',
   deliveryCharges: 2,
 
   backgroundColor: '#e0e0e0',

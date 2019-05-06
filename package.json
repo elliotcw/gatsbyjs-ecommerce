@@ -1,17 +1,8 @@
 {
-  "name": "gatsbyjs-ecommerce",
-  "description": "Static E-commerce site built using GatsbyJs",
-  "version": "0.8.0",
-  "author": "Parminder Klair",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/perminder-klair/gatsbyjs-ecommerce.git"
-  },
-  "bugs": {
-    "url": "https://github.com/perminder-klair/gatsbyjs-ecommerce/issues"
-  },
-  "homepage": "https://github.com/perminder-klair/gatsbyjs-ecommerce#readme",
+  "name": "every-day-organic",
+  "description": "Every Day Organic",
+  "version": "0.0.1",
+  "author": "Elliot Williams",
   "scripts": {
     "start": "npm run develop",
     "develop": "gatsby develop",

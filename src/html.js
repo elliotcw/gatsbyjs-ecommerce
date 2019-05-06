@@ -32,16 +32,13 @@ module.exports = class HTML extends React.Component {
           <meta charSet="UTF-8" />
           <meta name="author" content="Parminder Klair" />
           <link rel="shortcut icon" href="/images/favicon.png" />
-          <meta
-            name="google-site-verification"
-            content="_rn-lpJc-1AExvZpQ7W44PwX6N88nIClFNtNwY_IhvM"
-          />
+          <meta name="google-site-verification" content="" />
           <base href="/" target="_blank" />
           <script
             defer
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
           />
-          <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" />
+          {/* <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" /> */}
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
