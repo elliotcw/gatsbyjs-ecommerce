@@ -9,7 +9,7 @@ module.exports = {
   fbAppID: '@everydayorganic',
   type: 'website',
 
-  GRAPHQL_ENDPOINT: 'https://gatsbyjs-ecommerce-api-dcfow3ag5.now.sh',
+  GRAPHQL_ENDPOINT: 'https://gatsbyjs-ecommerce-api.williamselliot.now.sh',
   GRAPHQL_ENDPOINT_DEV: 'http://localhost:4000',
   siteUrl: 'https://www.everydayorganic.co.uk',
   mediumPublicationUrl: '',
