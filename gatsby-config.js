@@ -60,12 +60,12 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-source-medium`,
-      options: {
-        username: `every-day-organic`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-medium`,
+    //   options: {
+    //     username: `every-day-organic`,
+    //   },
+    // },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,

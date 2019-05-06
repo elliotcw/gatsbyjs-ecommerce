@@ -14,7 +14,8 @@ export default class Blog extends React.Component {
 
   render() {
     const { data } = this.props;
-    const posts = data.allMediumPost.edges;
+    // TODO: add in blog posts
+    const posts = []; // data.allMediumPost.edges;
 
     return (
       <div className="section">
@@ -26,7 +27,9 @@ export default class Blog extends React.Component {
         <Heading>Our Blog</Heading>
         <div className="columns is-multiline is-gapless">
           <div className="column is-half">
-            {posts.map(({ node }) => <BlogItem data={node} key={node.id} />)}
+            {posts.map(({ node }) => (
+              <BlogItem data={node} key={node.id} />
+            ))}
           </div>
         </div>
       </div>
@@ -34,28 +37,28 @@ export default class Blog extends React.Component {
   }
 }
 
-export const blogQuery = graphql`
-  query Blogs {
-    allMediumPost(sort: { fields: [createdAt], order: DESC }) {
-      edges {
-        node {
-          id
-          title
-          uniqueSlug
-          virtuals {
-            subtitle
-            totalClapCount
-            previewImage {
-              imageId
-            }
-          }
-          author {
-            name
-          }
-          createdAt
-          updatedAt
-        }
-      }
-    }
-  }
-`;
+// export const blogQuery = graphql`
+//   query Blogs {
+//     allMediumPost(sort: { fields: [createdAt], order: DESC }) {
+//       edges {
+//         node {
+//           id
+//           title
+//           uniqueSlug
+//           virtuals {
+//             subtitle
+//             totalClapCount
+//             previewImage {
+//               imageId
+//             }
+//           }
+//           author {
+//             name
+//           }
+//           createdAt
+//           updatedAt
+//         }
+//       }
+//     }
+//   }
+// `;
