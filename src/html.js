@@ -38,7 +38,7 @@ module.exports = class HTML extends React.Component {
             defer
             src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"
           />
-          {/* <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" /> */}
+          <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js" />
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"

@@ -3,6 +3,7 @@
   "description": "Every Day Organic",
   "version": "0.0.1",
   "author": "Elliot Williams",
+  "homepage": "https://github.com/perminder-klair/gatsbyjs-ecommerce#readme",
   "scripts": {
     "start": "npm run develop",
     "develop": "gatsby develop",
